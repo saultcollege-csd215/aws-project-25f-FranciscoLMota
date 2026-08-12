@@ -8,7 +8,7 @@ app = Flask(__name__)
 def home():
     return """Welcome to the Dice API!<br>
                 Use the endpoint <code>/random</code> to get a random number between 1 and 100.<br>
-                Try <code>/roll/d6?n=3</code> to roll three 6-sided dice."""
+                Try <code>/roll/d6?n=3</code> to roll three 6-sided dice. Test"""
 
 @app.route('/random')
 def random_number():
